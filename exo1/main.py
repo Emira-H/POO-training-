@@ -1,3 +1,5 @@
+from city import *
+
 city1 = City("Roubaix", 59)
 city2 = City("Marseille", 13)
 city3 = City("Paris", 75)
