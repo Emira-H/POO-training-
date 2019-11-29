@@ -1,7 +1,7 @@
 from cities import *
 from classe import *
 
-for city in cities:
-    ma_ville = City(city)
-    City.show_information(city)
-    #ou bien on peut faire ma_ville.show_information()
+for dict in cities:
+    ma_ville = City(dict)
+    ma_ville.show_information()
+#ou bien on peut faire ma_ville.show_information()
